@@ -1,0 +1,123 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #674BB1;
+    background-image: url(images/bg-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 2rem 0 2rem;
+    
+}
+
+
+
+header svg{
+    width: 150px;
+    
+}
+
+.background{
+    position: relative;
+}
+
+.mockup{
+    color: white;
+   text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+    /* font-size: 1.2rem; */
+
+}
+
+img{
+    width: 100%;
+}
+
+.mockup h2{
+    font-weight: 600;
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 1.2rem; */
+}
+
+.mockup p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+
+}
+
+
+.mockup button{
+    padding: 1rem 4rem 1rem 4rem ;
+    border-radius: 50px;
+    color: #674BB1;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+
+footer [class*="fa"]{
+    font-size: 2rem;
+    color: white;
+
+}
+
+footer{
+    padding: 2rem 0 4rem 0;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center ;
+    gap: 5%;
+}
+
+@media(min-width:850px){
+    body{
+        background-image: url(images/bg-desktop.svg);
+       
+    }
+    header svg{
+        margin-bottom: 2rem;
+    }
+
+    .parttwo{
+        margin: 0;
+        padding: 7rem 3rem 0 0 ;
+        flex-basis: 50%;
+        
+    }
+
+    .parttwo .mockup{
+        text-align: left;
+    }
+
+    .parts{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    footer{
+        padding-top: 4rem;
+        justify-content: flex-end;
+        padding-right:2rem ;
+        gap: 2%;
+    }
+
+
+}
+    
